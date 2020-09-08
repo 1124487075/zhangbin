@@ -24,6 +24,7 @@ public class GoodsController {
 	
 	@GetMapping(value="queryGoodsAll")
 	public List<Goods>queryGoodsAll(){
+		System.out.println("123456");
 	  return gs.queryGoodsAll();
 	}
 	
